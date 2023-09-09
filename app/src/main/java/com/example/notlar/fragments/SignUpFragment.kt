@@ -55,7 +55,7 @@ if(email.isNotEmpty()&&pass.isNotEmpty()&&verifyPass.isNotEmpty()){
         auth.createUserWithEmailAndPassword(email,pass).addOnCompleteListener(
             OnCompleteListener {
                 if(it.isSuccessful){
-                    Toast.makeText(context,"registered succesfully", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context,"Kayıt Başarılı", Toast.LENGTH_SHORT).show()
                     navControl.navigate(R.id.action_signUpFragment_to_homeFragment)
                 }else{
                     Toast.makeText(context,it.exception?.message, Toast.LENGTH_SHORT).show()
