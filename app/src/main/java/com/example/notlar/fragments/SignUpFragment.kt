@@ -44,6 +44,7 @@ private lateinit var binding: FragmentSignUpBinding
         auth=FirebaseAuth.getInstance()
     }
     private fun registerEvents(){
+        binding.
 
         binding.nextBtn.setOnClickListener{
             val email=binding.emailEt.text.toString()
