@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">Notlar</string>
+    <string name="app_name">Not Defterim</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_email">Mail adresiniz:</string>
+    <string name="enter_your_pass">Şifreniz .....</string>
+    <string name="re_enter_your_pass">Şifrenizin tekrarı: .....</string>
+    <string name="type_your_task">Not alınız.....</string>g>
 </resources>
