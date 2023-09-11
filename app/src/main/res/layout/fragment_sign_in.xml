@@ -22,18 +22,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardView1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginBottom="164dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="120dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:cardUseCompatPadding="true"
         app:layout_constraintBottom_toTopOf="@+id/textview32"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/guideline2">
 
@@ -65,12 +67,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="16dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:cardUseCompatPadding="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cardView1">
 
@@ -99,12 +101,11 @@
 
     </com.google.android.material.card.MaterialCardView>
 
-
     <ImageView
         android:id="@+id/nextBtn"
         android:layout_width="46dp"
         android:layout_height="44dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="8dp"
         android:src="@drawable/nextt"
         app:layout_constraintEnd_toEndOf="@id/cardView2"
@@ -112,34 +113,36 @@
 
     <TextView
         android:id="@+id/textViewSignUp"
-        android:layout_width="100dp"
-        android:layout_height="44dp"
-        android:layout_marginBottom="362dp"
+        android:layout_width="99dp"
+        android:layout_height="35dp"
 
+        android:layout_marginStart="60dp"
         android:fontFamily="@font/inter_regular"
-        android:text="Kaydolun"
-        android:textColor="@color/text_color"
+        android:text="KAYDOL!"
+        android:textColor="@color/teal_200"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/nextBtn"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/nextBtn" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449" />
 
     <TextView
         android:id="@+id/textview32"
-        android:layout_width="190dp"
-        android:layout_height="38dp"
+        android:layout_width="192dp"
+        android:layout_height="34dp"
         android:layout_marginStart="16dp"
         android:fontFamily="@font/inter_regular"
-        android:text="Henüz kaydolmadınız mı?"
+        android:text="Henüz kaydolmadın mı?"
+        android:textColor="@color/purple_500"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.51" />
+        app:layout_constraintVertical_bias="0.451" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
