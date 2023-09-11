@@ -130,6 +130,7 @@
         android:id="@+id/textview32"
         android:layout_width="190dp"
         android:layout_height="38dp"
+        android:layout_marginStart="16dp"
         android:fontFamily="@font/inter_regular"
         android:text="Henüz kaydolmadınız mı?"
         android:textSize="16sp"
